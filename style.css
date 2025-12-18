@@ -253,7 +253,7 @@ li {
   font-size: 0.9rem;
   color: var(--text-muted);
   margin-top: 0.2rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.1rem;
 }
 
 .item-meta + .item-meta {
