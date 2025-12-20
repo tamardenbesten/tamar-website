@@ -246,8 +246,21 @@ li {
 }
 
 .item-title {
-  font-weight: 700 !important;
+  font-weight: normal !important;
   font-style: normal !important;
+}
+
+.item-title > a {
+  color: var(--text-primary);
+}
+
+.item-title .author-info {
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+.item-title .author-info a {
+  color: var(--text-muted);
 }
 
 .item-meta {
@@ -266,12 +279,55 @@ li {
 }
 
 .item-links {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   margin-top: 0.3rem;
 }
 
 .item-links a {
   margin-right: 1rem;
+  text-decoration: none;
+  border: 1px solid rgba(139, 0, 0, 0.4);
+  padding: 0.05rem 0.2rem;
+  display: inline-block;
+}
+
+.abstract-toggle {
+  margin-top: 0.5rem;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.abstract-label {
+  color: var(--text-muted);
+}
+
+.expand-icon {
+  display: inline-block;
+  margin-left: 0.3rem;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.expand-icon-down {
+  border-top: 7px solid var(--text-muted);
+  border-bottom: none;
+}
+
+.expand-icon-up {
+  border-bottom: 7px solid var(--text-muted);
+  border-top: none;
+}
+
+.abstract-content {
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  border-left: 2px solid var(--border);
 }
 
 /* CV specific */
