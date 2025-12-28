@@ -288,7 +288,7 @@ li {
 }
 
 .item-links a {
-  margin-right: 1rem;
+  margin-right: 0.3rem;
   text-decoration: none;
   border: 1px solid rgba(139, 0, 0, 0.4);
   padding: 0.05rem 0.2rem;
